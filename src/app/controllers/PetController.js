@@ -10,23 +10,23 @@ class PetController {
       age: Yup.number().positive(),
       weight: Yup.number().positive(),
       breed: Yup.string(),
-      found: Yup.boolean(),
+      found: Yup.boolean(), // Colocar .when() para que sejá necessário fornecer um dos parâmetros (found, lost, for_adoption) como true
       lost: Yup.boolean(),
       for_adoption: Yup.boolean(),
       adopted: Yup.boolean(),
     });
 
-    if(!schema.isValid(req.body)) {
+    if (!schema.isValid(req.body)) {
       return res.status(400).json({ error: "Validation failed" });
     }
 
+    const owner_id = req.userId;
+
     // Add validation to check if an animal with the same name and from the same owner already exists
 
-    const { name, gender, species, age, weight, breed, found, lost, for_adoption, adopted } = await Pet.create(
-      req.body
-    );
+    const pet = await Pet.create({ ...req.body, owner_id });
 
-    return res.json({ name, gender, species, age, weight, breed, found, lost, for_adoption, adopted });
+    return res.json(pet);
   }
 }
 

@@ -24,6 +24,10 @@ class Pet extends Model {
 
     return this;
   }
+
+  static associate(models) {
+    this.belongsTo(models.User, { foreignKey: "owner_id" });
+  }
 }
 
 export default Pet;

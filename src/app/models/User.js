@@ -27,6 +27,7 @@ class User extends Model {
 
   static associate(models) {
     this.belongsTo(models.File, { foreignKey: "picture_id" });
+    this.hasMany(models.Pet, { foreignKey: "owner_id" });
   }
 
   checkPassword(password) {
