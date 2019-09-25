@@ -7,9 +7,7 @@ class Pet extends Model {
         name: Sequelize.STRING,
         gender: Sequelize.STRING,
         species: Sequelize.STRING,
-        age: Sequelize.FLOAT({
-          precision: 1,
-        }),
+        age: Sequelize.FLOAT,
         weight: Sequelize.INTEGER,
         breed: Sequelize.STRING,
         found: Sequelize.BOOLEAN,
