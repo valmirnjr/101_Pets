@@ -1,0 +1,7 @@
+Tutorial de conexão com o cliente local
+https://cloud.google.com/sql/docs/mysql/connect-admin-ip
+
+Página de gerenciamento da instância no Google Cloud
+https://console.cloud.google.com/sql/instances/pets101/overview?project=pets-256220&duration=PT1H
+
+
