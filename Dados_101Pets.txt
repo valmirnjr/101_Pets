@@ -1,106 +1,231 @@
-insert into User (name, email) VALUES ('BICHO NO PARQUE','www.bichonoparque.com.br');	
+INSERT INTO User(
+	name, email) VALUES (
+	"BICHO NO PARQUE", "www.bichonoparque.com.br"
+);
 
-insert into Donator(user_id,institution,description,password_hash) VALUES ('1','1','Projeto de voluntariado voltado à proteção de gatos ferais que vivem em uma área pública em São Paulo','asdasdasdadsad');
+INSERT INTO Donator(
+	user_id, institution, description, password_hash) VALUES (
+	1, 1, "Projeto de voluntariado voltado à proteção de gatos ferais que vivem em uma área pública em João Pessoa", "asdasdasdadsad"
+);
 
-insert into Phone(user_id,phone_number) VALUES ('1','(83) 8643-5750');
+INSERT INTO Phone(
+	user_id, phone_number) VALUES (
+	1, "(83) 8643-5750"
+);
 
-inser into Address(user_id,street,city,state,zip_code) VALUES ('1','Av. Marechal Deodoro da Fonseca','JOAO PESSOA','Paraíba','58040-140');
-
-
-insert into User (name, email) VALUES ('CATS OF NECROPOLIS','catsnecropolis@gmail.com');	
-
-insert into Donator(user_id,institution,description,password_hash) VALUES ('2','1','Controle de colônia num cemitério da Baixada Santista. Sempre tem gatinhos para adoção','asdasdasdadsad');
-
-insert into Phone(user_id,phone_number) VALUES ('2','(13) 99778-9172');
-
-insert into Address(user_id,street,city,state,zip_code) VALUES ('2','Av.  Joao Pessoa','CAMPINA GRANDE','Paraíba','58400-690');
-
-
-
-insert into User (name, email) VALUES ('ONG ADOTE UM GATINHO','clotilde@adoteumgatinho.org.br');	
-
-insert into Donator(user_id,institution,description,password_hash) VALUES ('3','1','Acolhe gatos de rua e cuidam deles com o objetivo de encontrar pessoas dispostas a amá-los. Pessoas que os acolham como filhos, que lhes ofereçam tratamento veterinário quando necessário e lhes dêem um lar seguro.','asdasdasdadsad');
-
-insert into Phone(user_id,phone_number) VALUES ('3','(83) 3045-3260');
-
-insert into Address(user_id,street,city,state,zip_code) VALUES ('3','Rua: Agrnonomo Joao Mauricio de Medeiros','CAMPINA GRANDE','Paraíba','58400-690');
+INSERT INTO Address(
+	user_id, street, city, state, zip_code) VALUES (
+	1, "Av. Marechal Deodoro da Fonseca", "João Pessoa", "Paraíba", "58040-140"
+);
 
 
+INSERT INTO User(
+	name, email) VALUES (
+	"CATS OF NECROPOLIS","catsnecropolis@gmail.com"
+);
 
-insert into User (name, email) VALUES ('PROJETO SOCIAL SOS ANIMAIS DE RUA','faleconosco@sosanimaisderua.org.br');	
+INSERT INTO Donator(
+	user_id, institution, description, password_hash) VALUES (
+	2, 1, "Controle de colônia num cemitério em Campina Grande. Sempre tem gatinhos para adoção", "asdasdasdadsad"
+);
 
-insert into Donator(user_id,institution,description,password_hash) VALUES ('4','1','Organização da Sociedade Civil de Interesse Publico - OSCIP - com missão de promoção da saúde animal em prol do bem estar dos mesmos, da saúde pública e do meio ambiente.','asdasdasdadsad');
+INSERT INTO Phone(
+	user_id, phone_number) VALUES (
+	2, "(13) 99778-9172"
+);
 
-insert into Phone(user_id,phone_number) VALUES ('4','(11) 3045-3261');
+INSERT INTO Address(
+	user_id, street, city, state, zip_code) VALUES (
+	2, "Av.  Joao Pessoa", "Campina Grande", "Paraíba", "58400-690"
+);
 
-insert into Address(user_id,street,city,state,zip_code) VALUES ('4','Rua Rio Grande do Norte','POMPEIA','Sao Paulo','11065-460');
+INSERT INTO User(
+	name, email) VALUES (
+	"ONG ADOTE UM GATINHO", "clotilde@adoteumgatinho.org.br"
+);
 
+INSERT INTO Donator(
+	user_id, institution, description, password_hash) VALUES (
+	3, 1, "Acolhe gatos de rua e cuidam deles com o objetivo de encontrar pessoas dispostas a amá-los. Pessoas que os acolham como filhos, que lhes ofereçam tratamento veterinário quando necessário e lhes dêem um lar seguro.", "asdasdasdadsad"
+);
 
+INSERT INTO Phone(
+	user_id, phone_number) VALUES (
+	3, "(83) 3045-3260"
+);
 
-insert into User (name, email) VALUES ('Giordano Nóbrega Moreno','moreno@gmail.com');	
-
-insert into Phone(user_id,phone_number) VALUES ('5','(83) 3111-3261');
-
-insert into Address(user_id,street,city,state,zip_code) VALUES ('5','Rua rua do giordano','Joao Pessoa','Paraiba','58660-000');
-
-
-
-insert into User (name, email) VALUES ('José Vagne de Brito Lira','vagne@gmail.com');
-
-insert into Phone(user_id,phone_number) VALUES ('6','(83) 2222-3261');
-
-insert into Address(user_id,street,city,state,zip_code) VALUES ('6','Rua rua do vagne','Ingá','Paraiba','58660-000');
-	
-
-insert into User (name, email) VALUES ('Evellyne Alves','eva_alves@gmail.com');	
-
-insert into Phone(user_id,phone_number) VALUES ('7','(83) 2232-3261');
-
-insert into Address(user_id,street,city,state,zip_code) VALUES ('7','Rua rua da Evellyne','Juazeiro do Norte','Ceará','58660-000');
-
-
-insert into User (name, email) VALUES ('Giovanny Marcellus Galdino','galdino@gmail.com');	
-
-insert into Phone(user_id,phone_number) VALUES ('8','(83) 1132-3261');
-
-insert into Address(user_id,street,city,state,zip_code) VALUES ('8','Rua rua do Giovanny','Jaçanã','Rio Grande do Norte','58660-000');
-
-
-insert into User (name, email) VALUES ('Breno Santana','breno@gmail.com');	
-
-insert into Phone(user_id,phone_number) VALUES ('9','(83) 5552-3261');
-
-insert into Address(user_id,street,city,state,zip_code) VALUES ('9','Rua rua do Breno','Salvador','Bahia','58660-000');
+INSERT INTO Address(
+	user_id, street, city, state, zip_code) VALUES (
+	3, "Rua: Agrnonomo Joao Mauricio de Medeiros", "Campina Grande", "Paraíba", "58400-690"
+);
 
 
-insert into User (name, email) VALUES ('Lucas Porto','L_porto@gmail.com');
+INSERT INTO User(
+	name, email) VALUES (
+	"PROJETO SOCIAL SOS ANIMAIS DE RUA", "faleconosco@sosanimaisderua.org.br"
+);
+
+INSERT INTO Donator(
+	user_id, institution, description, password_hash) VALUES (
+	4, 1, "Organização da Sociedade Civil de Interesse Publico - OSCIP - com missão de promoção da saúde animal em prol do bem estar dos mesmos, da saúde pública e do meio ambiente.", "asdasdasdadsad"
+);
+
+INSERT INTO Phone(
+	user_id, phone_number) VALUES (
+	4, "(11) 3045-3261"
+);
+
+INSERT INTO Address(
+	user_id, street, city, state, zip_code) VALUES (
+	4, "Rua Rio Grande do Norte", "POMPEIA", "São Paulo", "11065-460"
+);
+
+INSERT INTO User(
+	name, email) VALUES (
+	"Giordano Nóbrega Moreno", "moreno@gmail.com"
+);
+
+INSERT INTO Phone(
+	user_id, phone_number) VALUES (
+	5, "(83) 3111-3261"
+);
+
+INSERT INTO Address(
+	user_id, street, city, state, zip_code) VALUES (
+	5, "Rua do giordano", "Joao Pessoa", "Paraiba", "58660-000"
+);
 
 
-insert into Phone(user_id,phone_number) VALUES ('10','(83) 5552-3261');
+INSERT INTO User(
+	name, email) VALUES (
+	"José Vagne de Brito Lira", "vagne@gmail.com"
+);
 
-insert into Address(user_id,street,city,state,zip_code) VALUES ('10','Rua rua do Lucas Porto','Campina Grande','Paraíba','58660-000');
+INSERT INTO Phone(
+	user_id, phone_number) VALUES (
+	6, "(83) 2222-3261"
+);
 
-
-
-insert into User (name, email) VALUES ('Pedro','pedro@gmail.com');
-
-insert into Phone(user_id,phone_number) VALUES ('11','(83) 6652-3261');
-
-insert into Address(user_id,street,city,state,zip_code) VALUES ('11','Rua rua do Pedro','Joao Pessoa','Paraíba','58660-000');
-
-
-insert into User (name, email) VALUES ('Camila Machado','machado_b@gmail.com');
-
-insert into Phone(user_id,phone_number) VALUES ('12','(83) 7777-3261');
-
-insert into Address(user_id,street,city,state,zip_code) VALUES ('12','Rua rua da Camila','Campina Grande','Paraíba','58660-000');
+INSERT INTO Address(
+	user_id, street, city, state, zip_code) VALUES (
+	6, "Rua do vagne", "Ingá", "Paraiba", "58660-000"
+);
 
 
-insert into User (name, email) VALUES ('Luan balbino','Luan@gmail.com');
+INSERT INTO User(
+	name, email) VALUES (
+	"Evellyne Alves", "eva_alves@gmail.com"
+);
 
-insert into Phone(user_id,phone_number) VALUES ('13','(83) 8887-3261');
+INSERT INTO Phone(
+	user_id, phone_number) VALUES (
+	7, "(83) 2232-3261"
+);
 
-insert into Address(user_id,street,city,state,zip_code) VALUES ('13','Rua rua do Luan','Campina Grande','Paraíba','58660-000');
+INSERT INTO Address(
+	user_id, street, city, state, zip_code) VALUES (
+	7, "Rua da Evellyne", "Juazeiro do Norte", "Ceará", "58660-000"
+);
+
+INSERT INTO User(
+	name, email) VALUES (
+	"Giovanny Marcellus Galdino", "galdino@gmail.com"
+);
+
+INSERT INTO Phone(
+	user_id, phone_number) VALUES (
+	8, "(83) 1132-3261"
+);
+
+INSERT INTO Address(
+	user_id, street, city, state, zip_code) VALUES (
+	8, "Rua do Giovanny", "Jaçanã", "Rio Grande do Norte", "58660-000"
+);
+
+
+INSERT INTO User(
+	name, email) VALUES (
+	"Breno Santana", "breno@gmail.com"
+);
+
+INSERT INTO Phone(
+	user_id, phone_number) VALUES (
+	9, "(83) 5552-3261"
+);
+
+INSERT INTO Address(
+	user_id, street, city, state, zip_code) VALUES (
+	9, "Rua do Breno", "Salvador", "Bahia", "58660-000"
+);
+
+
+INSERT INTO User(
+	name, email) VALUES (
+	"Lucas Porto", "L_porto@gmail.com"
+);
+
+INSERT INTO Phone(
+	user_id, phone_number) VALUES (
+	10, "(83) 5552-3261"
+);
+
+INSERT INTO Address(
+	user_id, street, city, state, zip_code) VALUES (
+	10, "Rua do Lucas Porto", "Campina Grande", "Paraíba", "58660-000"
+);
+
+
+INSERT INTO User(
+	name, email) VALUES (
+	"Pedro", "pedro@gmail.com"
+);
+
+INSERT INTO Phone(
+	user_id, phone_number) VALUES (
+	11, "(83) 6652-3261"
+);
+
+INSERT INTO Address(
+	user_id, street, city, state, zip_code) VALUES (
+	11, "Rua do Pedro", "Joao Pessoa", "Paraíba", "58660-000"
+);
+
+
+INSERT INTO User(
+	name, email) VALUES (
+	"Camila Machado", "machado_b@gmail.com"
+);
+
+INSERT INTO Phone(
+	user_id, phone_number) VALUES (
+	12, "(83) 7777-3261"
+);
+
+INSERT INTO Address(
+	user_id, street, city, state, zip_code) VALUES (
+	12, "Rua da Camila", "Campina Grande", "Paraíba", "58660-000"
+);
+
+
+INSERT INTO User(
+	name, email) VALUES (
+	"Luan balbino", "Luan@gmail.com"
+);
+
+INSERT INTO Donator(
+	user_id, institution, description, password_hash) VALUES (
+	13, 0, null, "jdfklasjkljk.jhkjghj"
+);
+
+INSERT INTO Phone(
+	user_id, phone_number) VALUES (
+	13, "(83) 8887-3261"
+);
+
+INSERT INTO Address(
+	user_id, street, city, state, zip_code) VALUES (
+	13, "Rua do Luan", "Campina Grande", "Paraíba", "58660-000"
+);
 
 
 
