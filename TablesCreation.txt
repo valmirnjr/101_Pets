@@ -1,0 +1,45 @@
+CREATE TABLE User (
+	id INT PRIMARY KEY AUTO_INCREMENT,
+	name VARCHAR(50) NOT NULL,
+	email VARCHAR(40) UNIQUE NOT NULL
+);
+
+CREATE TABLE Phone(
+	user_id INT,
+	FOREIGN KEY(user_id) REFERENCES User(id),
+	phone_number VARCHAR(15) NOT NULL
+);
+
+CREATE TABLE Address(
+	user_id INT,
+	FOREIGN KEY(user_id) REFERENCES User(id),
+	street VARCHAR(255),
+	city VARCHAR(50),
+	state VARCHAR(30),
+	zip_code VARCHAR(9)
+);
+
+CREATE TABLE Donator(
+	user_id INT,
+	FOREIGN KEY(user_id) REFERENCES User(id),
+	institution BOOLEAN NOT NULL,
+	description TEXT,
+	password_hash TEXT
+);
+
+CREATE TABLE Animal(
+	id INT PRIMARY KEY AUTO_INCREMENT,
+	name VARCHAR(30),
+	age TINYINT,
+	color VARCHAR(30),
+	size VARCHAR(10),
+	species VARCHAR(10),
+	breed VARCHAR(30),
+	caracteristics TEXT,
+	gender VARCHAR(1) NOT NULL,
+	adopted VARCHAR(1) NOT NULL,
+	id_donator INT NOT NULL,
+	FOREIGN KEY(id_donator) REFERENCES Donator(user_id),
+	id_adopter INT,
+	FOREIGN KEY(id_adopter) REFERENCES User(id)
+);

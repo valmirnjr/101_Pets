@@ -1,0 +1,97 @@
+insert into Animal(
+	species, breed, caracteristics, gender, adopted, id_donator, id_adopter, name, age, color, size) VALUES (
+	"Cachorro", "Poodle", "Muito carinhoso.", "M", "N", 4, null, "Brutos", 0, "Preto", "Médio"
+);
+
+insert into Animal(
+	species, breed, caracteristics, gender, adopted, id_donator, id_adopter, name, age, color, size) VALUES (
+	"Cachorro", "SRD", "Procuro um bom lar para minha cachorra. Sou natural de São Paulo e vou retornar para lá...infelizmente não tenho condições de leva-la. Ela é uma cachorra dócil com as pessoas e com crianças...só não gosta de conviver com outros cãe pois ela é ciumenta e quer atenção só pra ela.
+Ela é castrada. Ela é portadora de dermatite atópica precisando de alguns cuidados como banhos frequentes. Interessados entrar em contato.", "F", "N", 4, null, "Belinha", 6, "Marrom", null
+);
+
+insert into Animal(
+	species, breed, caracteristics, gender, adopted, id_donator, id_adopter, name, age, color, size) VALUES (
+	"Cachorro", "SRD", "Encontrei esse cachorro sem coleira no centro de Campina Grande, perto da Praça da Morgação. É muito dócil pra ser de rua.", "M", "N", 13, 8, "Não sei", 1, "Branco", "Médio"
+);
+
+insert into Animal(
+	species, breed, caracteristics, gender, adopted, id_donator, id_adopter, name, age, color, size) VALUES (
+	"Cachorro", "SRD", "Conforme a veterinária ela tem uma mistura com outra raça, não é vira-lata puro.
+É uma cachorrinha bem sapeca e precisamos nos desfazer dela pois moramos em apartamento pequeno, e ja temos uma poodol a 7 anos. Moramos eu- 45anos , minha mãe 70 anos e minha filha 15 anos.
+Gostamos dela mas eu não estava trabalhando e ajudava a cuidar dela, porém agora estou e minha mãe esta com problemas de saúde e então não tem mais condições de mante-la aqui em casa.
+Então gostaria que Iris fosse para uma instituição séria para que possa ser adotada por uma família amorosa.
+Ela não alimenta-se com ração pois não temos condições de comprar.
+tirei ela da rua com 3 meses, da casa de uma senhora muito pobre que tem mais 3 cadelas grandes.", "F", "N", 4, null, "Iris", 1, "Branco/Preto", null
+);
+
+insert into Animal(
+	species, breed, caracteristics, gender, adopted, id_donator, id_adopter, name, age, color, size) VALUES (
+	"Cachorro", "SRD", "Cachorro dócil, atencioso, gosta de muito carinho e muito obediente.
+Adora comer coisas gostosas, principalmente carne.
+Todas as vezes que ele te vê é uma festa. Mesmo que você tenha passado 2 minutos fora.
+Raramente late.", "M", "N", 4, null, "Bartô", 1, "Branco", "Pequeno"
+);
+
+insert into Animal(
+	species, breed, caracteristics, gender, adopted, id_donator, id_adopter, name, age, color, size) VALUES (
+	"Cachorro", "SRD", "Vivi é uma cadela cheia de energia, brincalhona e muito dócil.", "F", "N", 2, null, "Vivi", 1, "Caramela", null
+);
+
+insert into Animal(
+	species, breed, caracteristics, gender, adopted, id_donator, id_adopter, name, age, color, size) VALUES (
+	"Cachorro", "SRD", "Bolinha é uma cadela super comportada, brincalhona e muito dócil.", "F", "N", 2, null, "Bolinha", 1, "Caramela", null
+);
+
+insert into Animal(
+	species, breed, caracteristics, gender, adopted, id_donator, id_adopter, name, age, color, size) VALUES (
+	"Cachorro", "Poodle", "PROCURO UM LAR PARA MEU CAOZINHO, POIS ESTOU MORANDO EM APARTAMENTO E LÁ NÃO É ACEITO ANIMAIS ;/ . QUEM REALMENTE SE INTERESSAR EM ADOTAR PODE ENTRAR EM CONTATO. AGRADEÇO.", "F", "N", 2, null, "Fluck", 1, "Branco", null
+);
+
+insert into Animal(
+	species, breed, caracteristics, gender, adopted, id_donator, id_adopter, name, age, color, size) VALUES (
+	"Gato", "SRD", "Procuro alguém que cuide com carinho, infelizmente tenho alergia e não posso permanecer com ela. No entanto, a amo e quero que tenha um lar e seja cuidada com amor.", "F", "N", 1, null, "Loló", 0, "Listrado", null
+);
+
+insert into Animal(
+	species, breed, caracteristics, gender, adopted, id_donator, id_adopter, name, age, color, size) VALUES (
+	"Gato", "SRD", "Luna é uma gatinha muito linda, meiga e que está sempre pedindo carinho.", "F", "N", 1, null, "Luna", 1, "Creme", null
+);
+
+insert into Animal(
+	species, breed, caracteristics, gender, adopted, id_donator, id_adopter, name, age, color, size) VALUES (
+	"Gato", "SRD", "Branquinha é uma das gatinhas da minha rua que eu e minha familia tomamos conta pela situação precária em que ela sua mãe e seus irmãos se encontravam, entretanto já temos outros gatos em nossa casa, e já não temos mais espaço e dinheiro para manter ela, ela é muito esperta e comilona e espera um dono amável.", "F", "N", 3, null, "Branquinha", 0, "Branco", null
+);
+
+insert into Animal(
+	species, breed, caracteristics, gender, adopted, id_donator, id_adopter, name, age, color, size) VALUES (
+	"Gato", "SRD", "Gato macho, dócil, doméstico, nunca saiu de casa, come somente ração.", "M", "N", 3, null, "Fred", 1, "Amarelo", null
+);
+
+insert into Animal(
+	species, breed, caracteristics, gender, adopted, id_donator, id_adopter, name, age, color, size) VALUES (
+	"Gato", "SRD", "Minha gata deu cria, ela teve 3 gatinhos, sendo dois machos e uma fêmea. Consegui que adotasse os machos, mais ninguém quer a fêmea. Alguém interessado, que possa me ajudar? Tô precisando muito encontrar um lar, pra essa linda gatinha. Me ajudem, por favor.", "F", "N", 1, null, "Pretinha", 1, "Preto", null
+);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
