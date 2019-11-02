@@ -1,9 +1,9 @@
 ###	Criação da Database	###
 
 
-CREATE DATABASE pets101
+CREATE DATABASE pets101;
 
-USE pets101
+USE pets101;
 
 
 ###	Criação das Relações	###
